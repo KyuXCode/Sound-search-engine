@@ -1,0 +1,64 @@
+@import 'fonts';
+
+.now-playing-tab {
+    position: fixed;
+
+    width: 24.5%;
+    height: 49%;
+    color: #FFFFFF;
+    background-color: #4C6740;
+    bottom: 0;
+    right: 0;
+
+    border-top-left-radius: 30px;
+    padding-left: 2rem;
+    padding-top: 2.5rem;
+
+    font-weight: 700;
+
+    box-shadow: 0px 0px 20px #000000;
+
+    .title {
+        font-size: .75rem;
+    }
+
+    .song-title {
+        font-size: 1.125rem;
+        margin: .75rem 0;
+    }
+
+
+    p {
+        text-align: right;
+        margin-bottom: 1rem;
+
+        button {
+            background: none;
+            color: #FFFFFF;
+            margin: .75rem;
+            
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .queue {
+        height: 50%;
+        overflow: auto;
+        .song-queued {
+            font-weight: 400;
+            font-size: .75rem;
+            line-height: 1.5rem;
+        }
+
+        h2{
+            &:hover{
+                text-decoration: underline;
+                color: rgb(203, 203, 203);
+                cursor: pointer;
+            }
+        }
+    }
+}

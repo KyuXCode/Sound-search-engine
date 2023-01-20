@@ -1,0 +1,78 @@
+@import 'fonts';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+}
+
+input {
+    border: none;
+}
+
+form {
+    display: flex;
+    height: 100vh;
+
+    .user-bar {
+        border-right: 1px solid #747474;
+        width: 35vw;
+        max-width: 35vw;
+        overflow-y: auto;
+    }
+
+    .sound-detail {
+        height: 100vh;
+        width: 65vw;
+        overflow-y: auto;
+        overflow-wrap: normal;
+    }
+
+}
+
+.search {
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+    z-index: 999;
+
+    overflow: hidden;
+
+    border-bottom: 1px solid #747474;
+    background: white;
+
+    h1 {
+        @include web-title;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-field {
+        display: flex;
+        border: 1px solid #747474;
+        max-width: fit-content;
+
+        input {
+            font-size: 1.18;
+            padding: 0 1rem;
+        }
+
+        button {
+            min-width: 8em;
+            height: 3.8em;
+            color: white;
+            background-color: #406FB6;
+        }
+    }
+}
+
+p {
+    & .action {
+        color: #757575;
+        font-size: 1.5rem;
+        padding: 5rem auto;
+    }
+}
