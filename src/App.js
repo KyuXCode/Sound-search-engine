@@ -86,7 +86,7 @@ function App() {
 
         <div className="user-bar">
           <div className="search">
-            <h1>Sound Search</h1>
+            <h1 className="app-title">Sound Search</h1>
             <div className="input-field">
               <input className='input' type="search" placeholder='Search by name' />
               <button type='submit' >SEARCH</button>

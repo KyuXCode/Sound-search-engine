@@ -13,7 +13,7 @@
     h1 {
         font-size: 2rem;
 
-        span{
+        span {
             font-size: 1rem;
             color: #4c6740;
             font-weight: 700;
@@ -46,6 +46,14 @@
         margin: 0;
         text-align: left;
         color: black;
+
+        &.action {
+            text-align: center;
+            vertical-align: middle;
+            line-height: 100vh;
+            color: #757575;
+            font-size: 1.5rem;
+        }
     }
 
     .box {
@@ -64,8 +72,8 @@
             font-size: 1rem;
             font-weight: bold;
             padding: .4rem;
-            
-            &:hover{
+
+            &:hover {
                 cursor: pointer;
             }
 
@@ -80,7 +88,7 @@
         }
     }
 
-    img{
+    img {
         margin-top: 1rem;
         margin-bottom: 3rem;
         border: 1px solid #757575;

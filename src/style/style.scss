@@ -45,9 +45,9 @@ form {
     border-bottom: 1px solid #747474;
     background: white;
 
-    h1 {
+    .app-title {
         @include web-title;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.2rem;
     }
 
     .input-field {
@@ -69,10 +69,11 @@ form {
     }
 }
 
-p {
-    & .action {
-        color: #757575;
-        font-size: 1.5rem;
-        padding: 5rem auto;
-    }
+.action {
+    color: #757575;
+    font-size: 1.5rem;
+    padding: 5rem auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vh;
 }
